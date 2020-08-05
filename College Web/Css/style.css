@@ -1,0 +1,44 @@
+:root{
+    --colorText: #ffffff;
+    --principalBg: #2e0b0b;
+    --colorHover: #851e1e;
+}
+body{
+    margin: 0em;
+    padding: 0em;
+}
+nav{
+    background-color: var(--principalBg);
+    color: var(--colorText);
+    margin: 0em;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: .15em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+img{
+    margin-top: .5em;
+    margin-left: 2em;
+    background-color: yellowgreen;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+}
+ul{
+    padding: 0em;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    margin: .1em 1em;
+}
+li a{
+    color: var(--colorText);
+}
+
+li a:hover{
+    color: var(--colorHover);
+}
